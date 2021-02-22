@@ -1,0 +1,96 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+/*login form css*/
+.form {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 260px;
+  margin: 100px auto auto;
+  padding: 30px 55px 40px 55px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.form h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.form input {
+  outline: 0;
+  border-radius: 10px;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form input:hover {
+  background-color: white;
+  border: 1xp solid #008ecc;
+  transition: all 1s ease 0s;
+}
+.form input:focus {
+  background-color: white;
+  border: 1px solid #008ecc;
+  transition: all 1s ease 0s;
+}
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  border-radius: 10px;
+  background: #008ecc;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #008ecc;
+  text-decoration: none;
+}
+.error {
+  color: red;
+  font-size: 15px;
+}
+.success {
+  color: rgb(25, 236, 25);
+  font-size: 15px;
+}
+.homephp {
+  text-align: center;
+  color: #000;
+}
+.aphp {
+  background: #555;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+  text-decoration: none;
+}
+.aphp:hover {
+  opacity: 0.7;
+}
