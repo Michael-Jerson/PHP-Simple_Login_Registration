@@ -1,4 +1,5 @@
-#This is just a simple but funtional Login and registration system.
+# This is just a simple but funtional Login and registration system.
+
 It uses simple funtionalities like:
 validate($data){
 $data = trim($data);
@@ -12,4 +13,4 @@ session_start();
 session_unset();
 session_destroy();
 
-#You can check some of the codes.
+# You can check some of the codes.
