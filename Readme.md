@@ -13,4 +13,6 @@ session_start();
 session_unset();
 session_destroy();
 
+#### Some Mysqli funtionalities if there is already a username is registered
+
 # You can check some of the codes.
